@@ -10,7 +10,7 @@ npm install --save-dev no-emit-webpack-plugin
 
 ## Usage
 
-This plugin is most useful when you are bundling assets that start from file types other than JavaScript, like styles for instance. With it you can remove the resulting file difined in the `output` option of your `webpack.config.js`.
+This plugin is most useful when you are bundling assets that start from file types other than JavaScript, like styles for instance. With it you can remove the resulting file defined in the `output` option of your `webpack.config.js`.
 
 Below is an example on how to remove the `style.js` file from the emitted assets. We'll use the [Extract Text Plugin](https://webpack.js.org/plugins/extract-text-webpack-plugin/) to generate the CSS asset.
 
